@@ -1,0 +1,38 @@
+
+
+.Search h1 {
+	margin-left: 4px;
+	margin-right: 8px;
+	padding-bottom: 15px;
+	font-family: "Poppins", sans-serif;
+}
+form {
+	margin: 10px 0 15px 0;
+}
+.temp {
+	font-size: 50px;
+	font-weight: 600;
+	padding: 0 10px 0 5px;
+}
+.unit {
+	color: rgb(33, 33, 33);
+	font-size: 13px;
+	font-weight: 400;
+	top: -30px;
+}
+
+.WeatherInfo canvas {
+	margin: 5px auto;
+	padding-right: 7px;
+	padding-left: 15px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+	font-size: 12px;
+	line-height: 20px;
+	position: relative;
+	left: 200px;
+	top: -65px;
+}

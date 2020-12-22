@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./WeatherForecast.css";
-
 import WeatherForecastPreview from "./WeatherForecastPreview";
 
 export default function WeatherForecast(props) {
@@ -25,7 +24,7 @@ export default function WeatherForecast(props) {
 		);
 	} else {
 		let apiKey = "c47639a679e866341924ab987bd35847";
-		let url = `http://api.openweathermap.org/data/2.5/forecast?q=${props.city}&appid=${apiKey}&units=metric`;
+		let url = `https://api.openweathermap.org/data/2.5/forecast?q=${props.city}&appid=${apiKey}&units=metric`;
 		axios.get(url).then(handleForecast);
 		return null;
 	}

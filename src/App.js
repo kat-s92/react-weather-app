@@ -7,7 +7,6 @@ function App() {
 		<div className="App">
 			<div className="Container">
 				<Search defaultCity="Moscow" />
-			</div>
 			<div className="ref">
 				<small>
 					Coded by Katya
@@ -20,6 +19,7 @@ function App() {
 						Open-source
 					</a>
 				</small>
+			</div>
 			</div>
 		</div>
 	);
